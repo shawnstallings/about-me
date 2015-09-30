@@ -64,7 +64,7 @@ ul {
   margin-top: 2em;
 }
 
-.introduction-section a {
+a {
   text-decoration: none;
   color: #0999FF;
 }
@@ -91,7 +91,13 @@ section > h1 {
   font-weight: bold;
   margin-top: 2em;
 }
-
+.portfolio-button a {
+  display: block;
+  width: 17rem;
+  color: #0999FF;
+  font-size: 1rem;
+  margin: 3rem auto 3rem;
+}
 .footer {
   margin-top: 3em;
   padding: 4em 0;
