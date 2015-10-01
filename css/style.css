@@ -115,7 +115,8 @@ section > h1 {
 }
 .portfolio-button a {
   display: block;
-  width: 17rem;
+  text-align: center;
+  width: 20rem;
   color: #0999FF;
   font-size: 1rem;
   margin: 3rem auto 3rem;
