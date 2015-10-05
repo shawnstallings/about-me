@@ -30,6 +30,9 @@ body {
   background: linear-gradient(to bottom,  #f2f6f8 0%,#b5c6d0 52%,#e0eff9 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
 }
+p {
+  margin-left: 1rem;
+}
 
 .icons ul {
   display: block;
@@ -40,7 +43,6 @@ body {
   width: 100%;
   height: 11rem;
   background-color: #FFFFFF;
-  float: left;
   position: fixed;
   margin-bottom: 3rem;
 
@@ -73,15 +75,20 @@ body {
   color: black;
   font-size: 2rem;
 }
+.me-image {
+  width: 135px;
+  height: 135px;
+  border-radius: 5px;
+}
 .introduction-section {
-  width: 50%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 12rem;
 }
 .location-section,
 .questions-section {
-  width: 50%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
@@ -111,15 +118,21 @@ a {
 section > h1 {
   font-size: 1.75rem;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .portfolio-button a {
   display: block;
   text-align: center;
-  width: 20rem;
+  width: 15rem;
+  background-color: #FFFFFF;
+  border-radius: 5px;
   color: #0999FF;
   font-size: 1rem;
   margin: 3rem auto 3rem;
+  padding: 5px;
+}
+.portfolio-button a:hover {
+  color: #000000;
 }
 
 @media screen and (max-width: 450px) {
@@ -146,7 +159,7 @@ section > h1 {
   .introduction-section {
     width: 80%;
     margin: 0 auto;
-    padding-top: 7rem;
+    padding-top: 9rem;
   }
   .location-section,
   .questions-section {
